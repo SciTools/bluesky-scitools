@@ -6,7 +6,8 @@ from iris.util import new_axis
 from matplotlib import pyplot as plt
 import nc_time_axis
 
-file_path = "/data/users/martin.yeo/Wholesale_data/202603270900_u1096_ng_umqv_Wholesale2.grib"
+# Download from Weather DataHub: https://datahub.metoffice.gov.uk/
+file_path = "202603270900_u1096_ng_umqv_Wholesale2.grib"
 
 # Masks in coord bounds confuse merge(). Need to manually control cube combination.
 #  https://scitools-iris.readthedocs.io/en/latest/user_manual/tutorial/controlling_merge.html#how-to-merge-cubes-when-coordinates-differ
